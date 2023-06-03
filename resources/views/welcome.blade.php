@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Nob | 企業紹介</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <script src="{{ asset('js/app.js') }}"></script>
 
         <!-- Styles -->
         <style>
@@ -24,19 +28,114 @@
             }
 
         </style>
-    </head>
-    <body class="antialiased">
-        <div class="left-align bg-gray-100 dark:bg-gray-900">
-        <div class="container">
-            <h1>studio nob!</h1>
-            <p>We provide comprehensive "customer-oriented" marketing consulting services regardless of industry, business type, or scale. Our expertise lies in developing marketing strategies, communication strategies, and data strategies tailored to our clients' needs. We excel in conducting integrated data analysis that combines online and offline data, utilizing techniques such as machine learning for big data analytics. Additionally, we offer services in integrated online and offline surveys, analytics, dashboard creation, panel surveys, and group interviews. We leverage data to help our clients devise effective strategies</p>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Studio Nob</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">サービス</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
         </div>
-        <div class="center-align">
-            <p>22F Nakano Tower,</p>
-            <p>24-3-18 Nakanoshima, Kita-ku,</p>
-            <p>Osaka-shi, Osaka,</p>
-            <p>Japan, 530-0005</p>
+      </div>
+    </nav>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <section id="hero" class="bg-light text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Studio Nob</h1>
+        <p class="lead">ビジネスの成長を加速させるデジタルマーケティングソリューション</p>
+        <a href="#contact" class="btn btn-primary btn-lg">お問い合わせ</a>
+      </div>
+    </section>
+
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="text-center">サービス</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-4">
+
+              <div class="card-body">
+                <h5 class="card-title">SEO対策</h5>
+                <p class="card-text">検索エンジンでの上位表示を実現し、集客を増加させます。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-4">
+
+              <div class="card-body">
+                <h5 class="card-title">SNSマーケティング</h5>
+                <p class="card-text">効果的なSNSキャンペーンで、ブランドの認知度を向上させます。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-4">
+
+              <div class="card-body">
+                <h5 class="card-title">コンテンツ制作</h5>
+                <p class="card-text">魅力的なコンテンツを提供し、ユーザーエンゲージメントを高めます。</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center">お問い合わせ</h2>
+        <p class="text-center">お気軽にお問い合わせください。</p>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">お名前</label>
+                <input type="text" class="form-control" id="name" placeholder="お名前を入力してください">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">メールアドレス</label>
+                <input type="email" class="form-control" id="email" placeholder="メールアドレスを入力してください">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">メッセージ</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="お問い合わせ内容を入力してください"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">送信する</button>
+            </form>
+          </div>
         </div>
-    </body>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 Studio Nob. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
