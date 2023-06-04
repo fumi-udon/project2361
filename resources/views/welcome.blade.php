@@ -126,6 +126,16 @@
         </div>
       </div>
     </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="address-card">
+            <h5>Studio Nob</h5>
+            <p>〒062-0042</p>
+            <p>北海道札幌市豊平区福住4条7丁目1番6 Alfa 2F</p>
+            </div>
+        </div>
+    </section>
   </main>
 
   <!-- フッター -->
