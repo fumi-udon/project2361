@@ -37,7 +37,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="#">Studio Nob</a>
+        <a class="navbar-brand" href="{{ url('/') }}">Studio Nob</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,10 +45,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#services">サービス</a>
+              <a class="nav-link" href="{{ url('/') }}">サービス</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">お問い合わせ</a>
+              <a class="nav-link" href="{{ url('/') }}">お問い合わせ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/tokutei') }}">特定商取引法に基づく表記</a>
