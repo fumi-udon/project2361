@@ -64,8 +64,6 @@
     <section id="hero" class="bg-light text-center py-5">
       <div class="container">
         <h1 class="display-4">Studio Nob</h1>
-        <p class="lead">ビジネスの成長を加速させるデジタルマーケティングソリューション</p>
-        <a href="#contact" class="btn btn-primary btn-lg">お問い合わせ</a>
       </div>
     </section>
 
