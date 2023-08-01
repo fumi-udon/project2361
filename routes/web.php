@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 特定商取引法に基づく表記
+Route::get('/tokutei', function () {return view('tokutei');});

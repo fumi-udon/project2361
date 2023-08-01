@@ -71,73 +71,48 @@
 
     <section id="services" class="py-5">
       <div class="container">
-        <h2 class="text-center">サービス</h2>
+        <h2 class="text-center">特定商取引法に基づく表記</h2>
         <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-4">
+  <h2>事業者名:</h2>
+  <p>Studio Nob</p>
 
-              <div class="card-body">
-                <h5 class="card-title">SEO対策</h5>
-                <p class="card-text">検索エンジンでの上位表示を実現し、集客を増加させます。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+  <h2>所在地:</h2>
+  <p>〒（062-0042）北海道札幌市豊平区福住4条7丁目1番6 Alfa 2F</p>
 
-              <div class="card-body">
-                <h5 class="card-title">SNSマーケティング</h5>
-                <p class="card-text">効果的なSNSキャンペーンで、ブランドの認知度を向上させます。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-4">
+  <h2>電話番号:</h2>
+  <p>011-893-3564</p>
 
-              <div class="card-body">
-                <h5 class="card-title">コンテンツ制作</h5>
-                <p class="card-text">魅力的なコンテンツを提供し、ユーザーエンゲージメントを高めます。</p>
-              </div>
-            </div>
-          </div>
+  <h2>受付時間:</h2>
+  <p>10:00-18:00（土日祝を除く）</p>
+
+  <h2>運営統括責任者:</h2>
+  <p>　不動ノブ</p>
+
+  <h2>交換および返品（返金ポリシー）:</h2>
+  <p>
+    当社では、提供するサービスについて最大限の満足を提供することに努めております。サービス提供後の返品・返金は原則として受け付けておりませんが、以下の場合には対応いたします。
+    <br><br>
+    ＜サービス提供前＞
+    ご契約前にキャンセルのご連絡があった場合、キャンセル料を申し受けることなく無料で対応いたします。
+    <br><br>
+    ＜サービス提供後＞
+    提供したサービスに不備があった場合、期限内にお問い合わせいただければ、無料で再提供または修正いたします。
+  </p>
+
+  <h2>引渡時期:</h2>
+  <p>広告運用やSNSマーケティングのプランにより異なります。お客様との契約内容に基づいてお知らせいたします。</p>
+
+  <h2>受け付け可能な決済手段:</h2>
+  <p>クレジットカード決済</p>
+
+  <p>
+    特定商取引法に基づく表記の内容は、変更となる場合がございますので、常に最新の情報をご確認ください。
+    <br><br>
+    ※お客様の個別の契約内容により、上記の内容と異なる場合がありますので、契約書をよくお読みいただき、合意内容をご確認ください。
+  </p>
+
         </div>
       </div>
-    </section>
-
-    <section id="contact" class="py-5">
-      <div class="container">
-        <h2 class="text-center">お問い合わせ</h2>
-        <p class="text-center">お気軽にお問い合わせください。</p>
-        <div class="row">
-          <div class="col-md-6 mx-auto">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">お名前</label>
-                <input type="text" class="form-control" id="name" placeholder="お名前を入力してください">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">メールアドレス</label>
-                <input type="email" class="form-control" id="email" placeholder="メールアドレスを入力してください">
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">メッセージ</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="お問い合わせ内容を入力してください"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">送信する</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="py-5">
-        <div class="container">
-            <div class="address-card">
-            <h5>Studio Nob</h5>
-            <p>〒062-0042</p>
-            <p>北海道札幌市豊平区福住4条7丁目1番6 Alfa 2F</p>
-            </div>
-        </div>
     </section>
   </main>
 
